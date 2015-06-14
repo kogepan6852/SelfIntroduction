@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8734316-FEDB-493E-8E2D-ED4F5652E810</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SelfIntroduction</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ACD774992B1DF02D5DD3F76789005189AB3330E5</key>
+		<string>https://github.com/kogepan6852/SelfIntroduction.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SelfIntroduction.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ACD774992B1DF02D5DD3F76789005189AB3330E5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kogepan6852/SelfIntroduction.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ACD774992B1DF02D5DD3F76789005189AB3330E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ACD774992B1DF02D5DD3F76789005189AB3330E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SelfInlntroduction</string>
+		</dict>
+	</array>
+</dict>
+</plist>
