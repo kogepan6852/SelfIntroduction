@@ -35,7 +35,7 @@ class ViewController2: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         
-        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         var cellNumber = appDelegate.cellNumber
         
         let image: [String] = ["kengo.png", "kengo.png", "kengo.png", "kengo.png"]
