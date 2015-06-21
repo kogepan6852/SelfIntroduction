@@ -9,7 +9,7 @@
 import UIKit
 
 class CustomCell: UICollectionViewCell {
-    @IBOutlet var image:UIImageView!
+    @IBOutlet var cellImageView:UIImageView!
     
     override init(frame: CGRect){
         super.init(frame: frame)

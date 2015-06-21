@@ -35,15 +35,16 @@ class ViewController2: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         
-        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         var cellNumber = appDelegate.cellNumber
         
-        let image: [String] = ["kengo.png", "kengo.png", "kengo.png", "kengo.png"]
+        let image: [String] = ["自己紹介.png", "kengo.png", "自己紹介.png", "自己紹介.png"]
         let name: [String] = ["堅固", "最上", "魔法使い", "僧侶"]
         let company: [String] = ["勇者", "社会人", "魔法使い", "僧侶"]
         let hobby: [String] = ["将棋", "戦士", "魔法使い", "僧侶"]
         let word: [String] = ["主催者！！", "戦士", "魔法使い", "僧侶"]
         myImage.image = UIImage(named: image[cellNumber!])
+        myImage.frame = CGRectMake(0, 0, 200, 200)
         myName.text = name[cellNumber!]
         myCompany.text = company[cellNumber!]
         myHobby.text = hobby[cellNumber!]

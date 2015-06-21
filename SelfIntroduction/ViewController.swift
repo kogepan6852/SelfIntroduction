@@ -29,9 +29,15 @@ class ViewController: UIViewController , UICollectionViewDataSource, UICollectio
     
     // MARK: - UICollectionViewDelegate Protocol
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell:CustomCell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as CustomCell
+        let cell:CustomCell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CustomCell
+        
+        if(indexPath.row == 1){
+            cell.cellImageView.image = UIImage(named: "kengo.png")
+        }
+        else{
+            cell.cellImageView.image = UIImage(named: "自己紹介.png")
+        }
 
-        cell.image.image = UIImage(named: "kengo.png")
         cell.backgroundColor = UIColor.blackColor()
         return cell
     }
@@ -46,7 +52,7 @@ class ViewController: UIViewController , UICollectionViewDataSource, UICollectio
     Cellが選択された際に呼び出される
     */
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate //AppDelegateのインスタンスを取得　
+        var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
         appDelegate.cellNumber = indexPath.row //appDelegateの変数を操作
         
     }

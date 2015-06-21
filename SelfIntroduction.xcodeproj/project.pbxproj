@@ -16,6 +16,7 @@
 		3C79FA891B2D9EB700F78DEF /* ViewContrller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79FA881B2D9EB700F78DEF /* ViewContrller2.swift */; };
 		3C79FA8B1B2DA16700F78DEF /* kengo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C79FA8A1B2DA16700F78DEF /* kengo.png */; };
 		3C79FA8D1B2DA51C00F78DEF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79FA8C1B2DA51C00F78DEF /* CustomCell.swift */; };
+		3C79FA8F1B36686300F78DEF /* 自己紹介.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C79FA8E1B36686300F78DEF /* 自己紹介.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3C79FA881B2D9EB700F78DEF /* ViewContrller2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrller2.swift; sourceTree = "<group>"; };
 		3C79FA8A1B2DA16700F78DEF /* kengo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kengo.png; sourceTree = "<group>"; };
 		3C79FA8C1B2DA51C00F78DEF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3C79FA8E1B36686300F78DEF /* 自己紹介.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自己紹介.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		3C79FA611B2D9B0C00F78DEF /* SelfIntroduction */ = {
 			isa = PBXGroup;
 			children = (
+				3C79FA8E1B36686300F78DEF /* 自己紹介.png */,
 				3C79FA8A1B2DA16700F78DEF /* kengo.png */,
 				3C79FA641B2D9B0C00F78DEF /* AppDelegate.swift */,
 				3C79FA661B2D9B0C00F78DEF /* ViewController.swift */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C79FA8F1B36686300F78DEF /* 自己紹介.png in Resources */,
 				3C79FA8B1B2DA16700F78DEF /* kengo.png in Resources */,
 				3C79FA6A1B2D9B0C00F78DEF /* Main.storyboard in Resources */,
 				3C79FA6F1B2D9B0C00F78DEF /* LaunchScreen.xib in Resources */,
@@ -303,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -342,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,6 +427,7 @@
 				3C79FA801B2D9B0C00F78DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C79FA811B2D9B0C00F78DEF /* Build configuration list for PBXNativeTarget "SelfIntroductionTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				3C79FA831B2D9B0C00F78DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

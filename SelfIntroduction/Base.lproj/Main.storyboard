@@ -40,7 +40,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <outlet property="image" destination="vyt-gg-N43" id="juU-t8-AbU"/>
+                                            <outlet property="cellImageView" destination="vyt-gg-N43" id="Cej-ly-Suk"/>
                                             <segue destination="SFj-Cj-5fX" kind="show" identifier="goSecondViewSegue" id="T5h-3i-4LC"/>
                                         </connections>
                                     </collectionViewCell>
